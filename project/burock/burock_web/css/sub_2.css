@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+#wrap { background: #A9AEBA;}
+
+#header { background: #000; z-index: 999; } 
+#header .inner {position: relative; height: 154px;}
+#header .inner h1 { position: absolute; left: 0; top: 75px;}
+#header .inner .btn_kr { transition: background 0.3s; position: absolute; right: 43px; top: 29px; cursor: pointer; font-size: 14px; padding: 7px 10px; background: #fff; border-radius: 18px;}
+#header .inner .btn_kr:hover {background: #ed135d; color: #fff; } 
+
+#header .inner .gnb { position: absolute; right: 0; top: 95px; z-index: 99;}
+#header .inner .gnb > li {float: left; font-size: 20px; }
+#header .inner .gnb > li > a { display: block; color: #fff; padding: 0 25px 29px;}
+#header .inner .gnb > li:last-child a {padding-right: 0;}
+
+#header .gnb .depth2 { background:#7a7675; padding:14px 0; }
+#header .gnb .depth2 li { text-align: center; font-size: 14px;} 
+#header .gnb .depth2 li a { display:block;  color:#FFF; }
+
+
+#LINEUP { padding: 115px 40px 0;}
+#LINEUP h2 { text-align: center; font-size: 70px; font-weight: 600; font-family: 'Poppins'; color: #fff;}
+#LINEUP .date { text-align: center; font-size: 35px; font-family: 'Poppins'; color: #444; padding-bottom: 115px;}
+#LINEUP .breadcrumbs { font-family: 'Poppins'; color: #fff; padding-left: 25px; background: url('../images/icon/breadcrums_home_white.png') no-repeat left center; margin-bottom: 30px; cursor: pointer;}
+#LINEUP .breadcrumbs a { color: #fff;}
+
+#artist .art_1 {background: #737e94; padding-left: 40px;}
+#artist .art_1 ul { padding-left: 40px;}
+#artist .art_1 ul li {float: left; height: 280px; position: relative; transition: opacity 0.5s;}
+#artist .art_1 ul li h3 {position: absolute; left: 50%; top: 112px; transform: translateX(-50%);  color: #fff; font-size: 40px; line-height: 1; opacity: 0; z-index: 99; transition: opacity 0.5s;}
+#artist .art_1 ul li:hover img { opacity: 0.5; }
+#artist .art_1 ul li:hover h3 { opacity: 1; }
+#artist .art_1 ul li:hover:nth-child(3) { opacity: 1; }
+#artist .art_1 ul li:nth-child(3) { color: #fff; font-size: 20px; background: #495875; width: 280px; padding: 33.5px 18px;}
+#artist .art_1 ul li:nth-child(3) span { font-size: 35px; font-weight: bold; font-family: 'Poppins'; line-height: 1.3;}
+
+#artist .art_2 {background: #656f88; padding-left: 40px;}
+#artist .art_2 ul { padding-left: 320px;}
+#artist .art_2 ul li {float: left; height: 280px; position: relative; transition: opacity 0.5s;}
+#artist .art_2 ul li h3 {position: absolute; left: 50%; top: 112px; transform: translateX(-50%);  color: #fff; font-size: 40px; line-height: 1; opacity: 0; z-index: 99; transition: opacity 0.5s;}
+#artist .art_2 ul li p:nth-child(1) {position: absolute; left: -280px; top: 60px;}
+#artist .art_2 ul li p:nth-child(2) {position: absolute; left: -280px; top: 173px;}
+#artist .art_2 ul li:hover img { opacity: 0.5; }
+#artist .art_2 ul li:hover h3 { opacity: 1; }
+#artist .art_2 ul li:hover:nth-child(1) { opacity: 1; }
+#artist .art_2 ul li:nth-child(1) { color: #fff; background: #495875; width: 280px; padding: 33.5px 18px; font-family: 'Poppins';}
+
+#artist .art_3 {background: #56647f; padding-left: 40px;}
+#artist .art_3 ul { padding-left: 40px;}
+#artist .art_3 ul li {float: left; height: 280px; position: relative; transition: opacity 0.5s;}
+#artist .art_3 ul li h3 {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);  color: #fff; font-size: 40px; line-height: 1; opacity: 0; z-index: 99; transition: opacity 0.5s; text-align: center;}
+#artist .art_3 ul li:hover img { opacity: 0.5; }
+#artist .art_3 ul li:hover h3 { opacity: 1; }
+#artist .art_3 ul li:nth-child(1) {  background: #2f3f61 url('../images/lineup/img_bi1.png') no-repeat center center; width: 280px; padding: 33.5px 18px; opacity: 1;}
+#artist .art_3 ul li:nth-child(4) { color: #DADADA;  background: #56647f; width: 280px; padding: 41px 30px; opacity: 1; font-family: 'Poppins';}
+#artist .art_3 ul li:nth-child(4) p { padding-bottom: 30px;}
+
+#artist .art_4 {background: #495875; padding-left: 40px;}
+#artist .art_4 ul { padding-left: 320px;}
+#artist .art_4 ul li {float: left; height: 280px; position: relative; transition: opacity 0.5s;}
+#artist .art_4 ul li h3 {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);  color: #fff; font-size: 40px; line-height: 1; opacity: 0; z-index: 99; transition: opacity 0.5s; text-align: center;}
+#artist .art_4 ul li p {position: absolute; left: -280px; top: 167px;}
+#artist .art_4 ul li:hover img { opacity: 0.5; }
+#artist .art_4 ul li:hover h3 { opacity: 1; }
+#artist .art_4 ul li:hover:nth-child(1) { opacity: 1; }
+#artist .art_4 ul li:nth-child(1) { color: #fff; background: #3d4c6d; width: 280px; padding: 33.5px 18px; font-family: 'Poppins';}
+
+#artist .art_5 {background: #3d4c6d; padding-left: 40px;}
+#artist .art_5 ul { padding-left: 40px;}
+#artist .art_5 ul li {position: relative; float: left; width: 280px; height: 280px; transition: opacity 0.5s;}
+#artist .art_5 ul li h3 {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);  color: #fff; font-size: 40px; line-height: 1; opacity: 0; z-index: 99; transition: opacity 0.5s; text-align: center;}
+#artist .art_5 ul li p {position: absolute; left: 40px; bottom: 40px; width: 481px;}
+#artist .art_5 ul li:hover img { opacity: 0.5; }
+#artist .art_5 ul li:hover h3 { opacity: 1; }
+#artist .art_5 ul li:hover:nth-child(3) { opacity: 1; }
+#artist .art_5 ul li:nth-child(3) { left: 0; top: 0; color: #fff; background: #495875 url('../images/lineup/img_bi2.png') no-repeat 40px 68.5px; width: 280px; padding: 33.5px 18px;}
+
+.bottom { height: 150px; background: #223459;}
+
+
+
+
+
+
+#footer { background: #000; color: #8E8E8E; padding: 50px 0 ; }
+#footer .inner { position: relative; height: 215px;}
+#footer address { position: absolute; left: 310px; top: 0;}
+#footer ul li { float: left;}
+#footer .inner .spon { position: absolute; left: 0; top: 100px;}
+#footer .inner .spon li { background: #fff; border-radius: 50%; width: 30px; height: 30px; text-align: center; margin-right: 8px; padding-top: 5px; }
+#footer .inner .sns {position: absolute; right: 0; top: 100px; }
+#footer .inner .sns li { width: 30px; height: 30px; text-align: center; margin-right: 5px; }

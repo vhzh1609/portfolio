@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+#wrap { background: #d4d4de;}
+
+#header { background: #000; z-index: 999; } 
+#header .inner {position: relative; height: 154px;}
+#header .inner h1 { position: absolute; left: 0; top: 75px;}
+#header .inner .btn_kr { transition: background 0.3s; position: absolute; right: 43px; top: 29px; cursor: pointer; font-size: 14px; padding: 7px 10px; background: #fff; border-radius: 18px;}
+#header .inner .btn_kr:hover {background: #ed135d; color: #fff; } 
+
+#header .inner .gnb { position: absolute; right: 0; top: 95px; z-index: 99;}
+#header .inner .gnb > li {float: left; font-size: 20px; }
+#header .inner .gnb > li > a { display: block; color: #fff; padding: 0 25px 29px;}
+#header .inner .gnb > li:last-child a {padding-right: 0;}
+
+#header .gnb .depth2 { background:#7a7675; padding:14px 0; }
+#header .gnb .depth2 li { text-align: center; font-size: 14px;} 
+#header .gnb .depth2 li a { display:block;  color:#FFF; }
+
+
+#LINEUP { padding: 115px 40px 0;}
+#LINEUP h2 { text-align: center; font-size: 70px; font-weight: 600; font-family: 'Poppins'; color: #fff;}
+#LINEUP .date { text-align: center; font-size: 35px; font-family: 'Poppins'; color: #444; padding-bottom: 115px;}
+#LINEUP .breadcrumbs { font-family: 'Poppins'; color: #7E7E7E; padding-left: 25px; background: url('../images/icon/breadcrums_home.png') no-repeat left center; margin-bottom: 28px; cursor: pointer;}
+#LINEUP .breadcrumbs a { color: #7E7E7E;}
+
+
+#artist { padding-bottom: 100px;}
+#artist ul { width: 1160px; height: 580px; margin-left: 40px; }
+#artist ul li { float: left; width: 580px; height: 580px; }
+#artist ul .txt { padding: 115px 36px; background: rgba(255,255,255,0.5);}
+#artist ul .txt .name { font-size: 40px; line-height: 1; font-weight: bold; font-family: 'Poppins'; padding-bottom: 20px;} 
+#artist ul .txt .date {  font-family: 'Poppins'; padding-bottom: 58px; color: #404040;} 
+#artist ul .txt .date span { font-style: italic; font-weight: lighter;}
+#artist ul .txt .desc {padding-bottom: 21px; color: #777;}
+#artist ul .txt .desc span {font-family: 'Poppins'; }
+
+
+.music { background: #cbcada; padding: 100px 0 150px; }
+
+#album { padding-left: 40px;}
+#album h2 { padding-bottom: 30px; font-size: 50px; font-weight: 600;}
+#album ul {  height: 280px; padding-left: 94px;}
+#album ul li { float: left; width: 280px; height: 280px; background: #fff; margin-right: 40px; padding: 12px 20px; font-family: 'Poppins'; box-shadow: #797979 5px 5px 10px;}
+#album ul li:nth-child(3) { margin-right: 0;}
+#album ul li .tit { font-size: 25px; font-style: italic; font-weight: 600; color: #4A4A4A;}
+#album ul li .play a { color: #848484; float: right; font-weight: 600; font-style: italic; padding:2px 0 2px 30px; background: url('../images/icon/playbtn.png') no-repeat left center;} 
+
+#movie { padding-left: 40px; padding-top: 100px;}
+#movie h2 { padding-bottom: 30px; font-size: 50px; font-weight: 600;}
+#movie img {padding-left: 94px; }
+
+
+#footer { background: #000; color: #8E8E8E; padding: 50px 0 ; }
+#footer .inner { position: relative; height: 215px;}
+#footer address { position: absolute; left: 310px; top: 0;}
+#footer ul li { float: left;}
+#footer .inner .spon { position: absolute; left: 0; top: 100px;}
+#footer .inner .spon li { background: #fff; border-radius: 50%; width: 30px; height: 30px; text-align: center; margin-right: 8px; padding-top: 5px; }
+#footer .inner .sns {position: absolute; right: 0; top: 100px; }
+#footer .inner .sns li { width: 30px; height: 30px; text-align: center; margin-right: 5px; }

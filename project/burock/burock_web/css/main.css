@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+#wrap { background: #a9aeba;}
+
+#header { background: #000; z-index: 999; border-bottom: 1px solid #707070;} 
+#header .inner {position: relative; height: 154px;} 
+#header .inner h1 { position: absolute; left: 0; top: 75px;}
+#header .inner .btn_kr { transition: background 0.3s; position: absolute; right: 43px; top: 29px; cursor: pointer; font-size: 14px; padding: 7px 10px; background: #fff; border-radius: 18px;}
+#header .inner .btn_kr:hover {background: #ed135d; color: #fff; } 
+
+#header .inner .gnb { position: absolute; right: 0; top: 95px; z-index: 99;}
+#header .inner .gnb > li {float: left; font-size: 20px; }
+#header .inner .gnb > li > a { display: block; color: #fff; padding: 0 25px 30px;}
+#header .inner .gnb > li:last-child a {padding-right: 0;}
+
+#header .gnb .depth2 { background:#7a7675; padding:14px 0; }
+#header .gnb .depth2 li { text-align: center; font-size: 14px;} 
+#header .gnb .depth2 li a { display:block;  color:#FFF; }
+
+
+
+
+#main_banner h2 {font-size: 0; }
+
+
+/* Arrows */
+#main_banner .slick-prev,#main_banner .slick-next { font-size: 0; line-height: 0; position: absolute; top: 50%; z-index: 999; display: block; width: 100px; height: 100px; transform: translate(0, -50%); cursor: pointer;  outline: none; opacity: .5; transition: opacity 0.5s; border: 0;}
+#main_banner .slick-prev:hover,#main_banner .slick-prev:focus,#main_banner .slick-next:hover,#main_banner .slick-next:focus { opacity: 1; }
+#main_banner .slick-prev { left: 100px; background:  url('../images/btn/pager/btn_pager_lt.png') no-repeat center center; }
+#main_banner .slick-next { right: 100px; background:  url('../images/btn/pager/btn_pager__rt.png') no-repeat center center; }
+
+/* Dots */
+#main_banner .slick-dots { position: absolute; bottom: 45px; display: block; width: 100%; padding: 0; margin: 0; left: 50%; transform: translateX(-27.5px);}
+#main_banner .slick-dots li { position: relative; display: inline-block; width: 15px; height: 15px; background: #fff; padding: 0 ; opacity: 0.2; margin: 0 25px; cursor: pointer; border-radius: 50%; border: solid 1px #707070;}
+#main_banner .slick-dots li button { display: block; padding: 5px; cursor: pointer; color:transparent; border: 0; outline: none; background: transparent; }
+#main_banner .slick-dots li.slick-active {opacity: 1;}
+
+
+
+#tickets { width: 1200px; height: 600px; background: url('../images/main/tickets/Subtraction\ 1.png') no-repeat center center; margin-top: 100px; margin-bottom: 200px; padding: 71px 53px 59px 113px; font-family: 'Poppins'; position: relative;}
+#tickets .price h2 { text-align: center; font-size: 50px; font-weight: 600; padding: 0 0 19px;}
+#tickets .price .od {position: relative; width: 675px; height: 119px; border-radius: 37px; border: solid 1px #d1d1d1; background: #fff url('../images/main/tickets/img_tickets1.png') no-repeat 60px 19.5px; font-size: 40px;  margin-bottom: 17px;}
+#tickets .price .od .txt { position: absolute; right: 60.2px; top: 31.5px;}
+#tickets .price .td { position: relative; width: 675px; height: 119px; border-radius: 37px; border: solid 1px #d1d1d1; background: #fff url('../images/main/tickets/img_tickets2.png') no-repeat 485px 19.5px; font-size: 40px;}
+#tickets .price .td .txt { position: absolute; left: 61px; top: 31.5px;}
+#tickets .price .pink { color: #f2055c; font-weight: 800;}
+#tickets .price .won {font-style: italic;}
+
+#tickets .price .accom { font-size: 30px; padding-top: 73px;}
+#tickets .price .btn_more { position: relative; width: 150px; height: 36px;}
+#tickets .price .btn_more a { display: inline-block; border: solid 1px #cecece; border-radius: 19px; padding: 5px 40px 5px 20px;  background:  url('../images/main/tickets/pointer.png') no-repeat 72px 12px; color: #707070; position: absolute; right: -450px; bottom: 40px; transition: background 0.3s;}
+#tickets .price .btn_more a:hover { background: #7a7675 url('../images/main/tickets/pointer_white.png') no-repeat 72px 12px; color: #fff; border: solid 1px #fff;}
+
+
+#tickets .shop {  position: absolute; top: 169px; right: 54px;}
+#tickets .shop p { background: url('../images/main/tickets/buynow_box-1.png') no-repeat center center; color: #fff; font-size: 80px; width: 296px; height: 245px; text-align: center; line-height: 1; padding-top: 60px;}
+#tickets .shop .site { background: url('../images/main/tickets/buynow_box.png') no-repeat center center;  width: 296px; height: 135px; padding: 38px; }
+#tickets .shop .site li {  float: left;}
+#tickets .shop .site li:nth-child(2) {position: absolute;  left: 96px; top: 277px; } 
+#tickets .shop .site li:nth-child(3) {position: absolute;  left: 168px; top: 282px; } 
+#tickets .shop .site li:nth-child(4) {position: absolute;  right: 30px; top: 278px; } 
+
+
+
+#line_up { padding: 0 70px 200px;}
+#line_up ul li {float: left; color: #fff; transition: opacity 0.3s;}
+#line_up ul li:first-child:hover { cursor: pointer; opacity: 0.5;}
+#line_up ul li:nth-child(2) {background: #3d4c6d; width: 250px; height: 430px; margin-right: 20px;}
+#line_up .lu_2 li:nth-child(2) { margin-right: 0;}
+#line_up ul .txt { padding: 55px 31px; }
+#line_up ul li .date { font-size: 40px; font-family: 'Poppins'; padding-bottom: 27px;}
+#line_up ul li .btn a { display: inline-block; border: 1px solid #fff; border-radius: 20px; padding: 4px 14px; color: #fff; transition: background 0.3s;}
+#line_up ul li .btn a:hover { color: #000; background: #fff;} 
+
+
+#event { margin-bottom: 200px; text-align: center;}
+
+
+#vibe { padding-bottom: 200px;}
+#vibe .sup { text-align: center;}
+#vibe .sup h2 {font-size: 50px; font-weight: 600; font-family: 'Poppins'; padding-bottom: 70px;}
+#vibe .burock_vibe {  color: #fff; padding: 50px 76px 0; }
+#vibe .burock_vibe dl { float: left; }
+#vibe .burock_vibe dl dt { font-size: 30px; padding-bottom: 8px; border-bottom: 3px solid #fff;}
+#vibe .burock_vibe dl dd { font-size: 20px; padding-top: 20px;}
+#vibe .burock_vibe .img { float: right;}
+#vibe .burock_vibe .img li { float: left; padding-left: 20px;}
+
+
+#info { background: #eeeff1; padding: 107px 0 97px;}
+#info .inner {padding: 0 77px;}
+#info h2 {font-size: 50px; font-weight: 600; font-family: 'Poppins'; padding-bottom: 76px; text-align: center;}
+#info .loca { width: 500px; height: 450px; color: #fff; background: #5d6b86; padding: 33px 50px 56px; float: left;} 
+#info .loca h3 { font-size: 30px; font-family: 'Poppins'; padding-left: 54px; background: url('../images/icon/location.png') no-repeat 15px center; margin-bottom: 50px;}
+#info .loca img { margin-bottom: 30px;}
+#info .loca .loca_txt span{ font-size: 20px;}
+
+#info .rt { float: right;}
+#info .rt .bus { width: 500px; height: 258px; background: #fff url('../images/main/info/img_bus_card.png') no-repeat center 90px; padding: 29px 0 0 33px; border: 1px solid #D1D1D1; margin-bottom: 22px;}
+#info .rt .bus h3 { font-size: 30px; font-family: 'Poppins'; padding-left: 60px; background: url('../images/icon/icon_information_shuttle\ bus.png') no-repeat left center;}
+#info .rt .bus p { text-align: center; font-size: 14px; padding-top: 110px; padding-left: 30px; background: url(../images/main/info/img_information_shuttle\ bus.jpg) no-repeat 90px 90px ; cursor: pointer;}
+
+#info .rt .last li a { display: block; color: #fff; font-family: 'Poppins'; font-size: 25px; background: #22345a; margin-top: 10px; padding: 7px 18px; position: relative;}
+#info .rt .last li a span {position: absolute; right: 18px; }
+
+
+
+#news {background: #22345a; color: #fff; text-align: center; padding: 65px 41px;}
+#news h2 { font-size: 50px; font-weight: 600; font-family: 'Poppins'; padding-bottom: 9px;}
+#news .inner input[type="text"] { width: 800px; height: 40px; padding-left: 10px; font-size: 20px; margin-bottom: 13px;}
+#news .inner input[type="submit"]  {margin-top: 37px; cursor: pointer; width: 100px; height: 30px; border: 0; background: #8a8a8a;  color: #fff;}
+
+
+
+#footer { background: #000; color: #8E8E8E; padding: 50px 0 ; }
+#footer .inner { position: relative; height: 215px;}
+#footer address { position: absolute; left: 310px; top: 0;}
+#footer ul li { float: left;}
+#footer .inner .spon { position: absolute; left: 0; top: 100px;}
+#footer .inner .spon li { background: #fff; border-radius: 50%; width: 30px; height: 30px; text-align: center; margin-right: 8px; padding-top: 5px; }
+#footer .inner .sns {position: absolute; right: 0; top: 100px; }
+#footer .inner .sns li { width: 30px; height: 30px; text-align: center; margin-right: 5px; }

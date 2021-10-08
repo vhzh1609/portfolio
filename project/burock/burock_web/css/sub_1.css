@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+#wrap { background: #d4d4de;}
+
+#header { background: #000; z-index: 999; } 
+#header .inner {position: relative; height: 154px;}
+#header .inner h1 { position: absolute; left: 0; top: 75px;}
+#header .inner .btn_kr { transition: background 0.3s; position: absolute; right: 43px; top: 29px; cursor: pointer; font-size: 14px; padding: 7px 10px; background: #fff; border-radius: 18px;}
+#header .inner .btn_kr:hover {background: #ed135d; color: #fff; } 
+
+#header .inner .gnb { position: absolute; right: 0; top: 95px; z-index: 99;}
+#header .inner .gnb > li {float: left; font-size: 20px; }
+#header .inner .gnb > li > a { display: block; color: #fff; padding: 0 25px 29px;}
+#header .inner .gnb > li:last-child a {padding-right: 0;}
+
+#header .gnb .depth2 { background:#7a7675; padding:14px 0; }
+#header .gnb .depth2 li { text-align: center; font-size: 14px;} 
+#header .gnb .depth2 li a { display:block;  color:#FFF; }
+
+
+#about { padding: 115px 87.5px 100px;}
+#about h2 { text-align: center; font-size: 70px; font-weight: 600; font-family: 'Poppins'; padding-bottom: 115px;}
+#about .breadcrumbs { font-family: 'Poppins'; color: #7E7E7E; padding-left: 25px; background: url('../images/icon/breadcrums_home.png') no-repeat left center; margin-bottom: 28px; cursor: pointer;}
+#about .breadcrumbs a { color: #7E7E7E;}
+
+#about .tap_menu { padding: 42px 50px;}
+#about .tap_menu .menu {  position: relative; width: 100%; height: 250px; }
+#about .tap_menu .menu h3 { float: right; cursor: pointer; }
+#about .tap_menu .menu .kor { position: absolute; right: 0; top: 200px;}
+#about .tap_menu .menu .eng { position: absolute; right: -50px; top: 200px;}
+#about .tap_menu .menu li .txt { position: absolute; left: 0; top: 0px; overflow: hidden; line-height: 1.875; color: #7E7E7E; display: none;} 
+
+#about .tap_menu .menu > li.active > h3 { color: #760061;}
+#about .tap_menu .menu > li.active > .txt {display: block; }
+
+
+#line_up .artist { width: 1025px; height: 764px; margin-left: 88px; margin-bottom: 100px;}
+#line_up .artist li { float: left; transition: opacity 0.5s;}
+#line_up .artist li:nth-child(3) { width: 1025px; height: 70px; background: #2f3f61; text-align: center; color: #fff; font-size: 30px; margin-top: -5px; line-height: 2.2;}
+#line_up .artist li:hover { opacity: 0.5;}
+#line_up .artist li:nth-child(3):hover { opacity: 1;}
+
+
+#vibe { margin-bottom: 150px; background: #b1b1cd; height: 284px;}
+#vibe .burock_vibe {  color: #fff; padding: 50px 76px 0 130px; }
+#vibe .burock_vibe dl { float: left; padding-left: 45px;}
+#vibe .burock_vibe dl dt { font-size: 30px; padding-bottom: 8px; border-bottom: 3px solid #fff;}
+#vibe .burock_vibe dl dd { font-size: 20px; padding-top: 20px;}
+#vibe .burock_vibe ul { float: left;}
+#vibe .burock_vibe ul li { float: left; padding-left: 20px;}
+
+
+
+
+#footer { background: #000; color: #8E8E8E; padding: 50px 0 ; }
+#footer .inner { position: relative; height: 215px;}
+#footer address { position: absolute; left: 310px; top: 0;}
+#footer ul li { float: left;}
+#footer .inner .spon { position: absolute; left: 0; top: 100px;}
+#footer .inner .spon li { background: #fff; border-radius: 50%; width: 30px; height: 30px; text-align: center; margin-right: 8px; padding-top: 5px; }
+#footer .inner .sns {position: absolute; right: 0; top: 100px; }
+#footer .inner .sns li { width: 30px; height: 30px; text-align: center; margin-right: 5px; }
