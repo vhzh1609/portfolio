@@ -238,6 +238,18 @@
 	};
 	contentWayPoint();
 
+    //banner_popup
+	$('.banner_popup').hide();
+    $('.banner_design').click(function(){
+		$('.banner_popup').fadeIn();
+	});
+	$('.banner_popup .close').click(function(){
+		$('.banner_popup').fadeOut();
+	});
+
+
+	
+
 	// magnific popup
 	$('.image-popup').magnificPopup({
     type: 'image',
