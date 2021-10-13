@@ -5,8 +5,7 @@
 
 .view1 {text-align: center; position: fixed; right: 5%; bottom: 5%; background: rgba(0, 0, 0, 0.4); padding: 10px 20px; border-radius: 30% 0 30% 0 ; z-index: 10;}
 .view1 a {display: inline-block; color: #fff;}
-.view2 {text-align: center; position: fixed; right: 5%; bottom: 15%; background: rgba(0, 0, 0, 0.4); padding: 10px 20px; border-radius: 30% 0 30% 0 ; z-index: 10;}
-.view2 a {display: inline-block; color: #fff;}
+
 
 #main {position: relative; height: 807px; }
 #main img:nth-child(1) {position: absolute; right: 0px; top: 25px;}

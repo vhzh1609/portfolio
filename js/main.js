@@ -256,6 +256,15 @@
 		$('.detail_popup').fadeOut();
 	});
 
+	//BI_popup
+	$('.BI_popup').hide();
+    $('.BI_design').click(function(){
+		$('.BI_popup').fadeIn();
+	});
+	$('.BI_popup .BI_close').click(function(){
+		$('.BI_popup').fadeOut();
+	});
+
 
 	
 
