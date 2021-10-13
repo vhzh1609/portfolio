@@ -243,8 +243,17 @@
     $('.banner_design').click(function(){
 		$('.banner_popup').fadeIn();
 	});
-	$('.banner_popup .close').click(function(){
+	$('.banner_popup .banner_close').click(function(){
 		$('.banner_popup').fadeOut();
+	});
+
+	//detail_popup
+	$('.detail_popup').hide();
+    $('.detail_design').click(function(){
+		$('.detail_popup').fadeIn();
+	});
+	$('.detail_popup .detail_close').click(function(){
+		$('.detail_popup').fadeOut();
 	});
 
 
