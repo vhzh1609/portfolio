@@ -9161,6 +9161,19 @@ textarea.form-control {
       height: 300px; } }
 
 
+
+
+.trump_card_1 {position: absolute; left: 30.3%; top: 10%; z-index: -1; width: 19.8%; }
+.trump_card_1 img {  opacity: 20%; width: 100%;}
+.trump_card_2 {position: absolute; right: 30.3%; bottom: 10%; z-index: -1; width: 19.8%;}
+.trump_card_2 img { opacity: 20%; width: 100%; transform: scale(-1);}
+@media (max-width: 1130px) {
+  .trump_card_1 { left: 35%; top: 20%; width: 30%; }
+  .trump_card_2 { display: none; } 
+  }
+
+
+
 .banner_popup {position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); z-index: 99; }
 .banner_popup img { position: absolute; left: 50%; top: 0; transform: translateX(-50%);}
 .banner_popup .banner_close {position: absolute; right: 20%; top: 5%; width: 10%; height: 10%; cursor: pointer;}
