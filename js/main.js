@@ -265,6 +265,15 @@
 		$('.BI_popup').fadeOut();
 	});
 
+	//poster_popup
+	$('.poster_popup').hide();
+    $('.poster_design').click(function(){
+		$('.poster_popup').fadeIn();
+	});
+	$('.poster_popup .poster_close').click(function(){
+		$('.poster_popup').fadeOut();
+	});
+
 
 	
 
